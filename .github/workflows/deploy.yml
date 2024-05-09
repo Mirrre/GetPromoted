@@ -23,13 +23,13 @@ jobs:
         run: yarn && yarn docs:build
 
       # 2、部署到 GitHub Pages
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v4
-        with:
-          BRANCH: gh-pages
-          FOLDER: ./src/.vitepress/dist
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: clin211/clin211.github.io
+      # - name: Deploy
+      #   uses: JamesIves/github-pages-deploy-action@releases/v4
+      #   with:
+      #     BRANCH: gh-pages
+      #     FOLDER: ./src/.vitepress/dist
+      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #     REPOSITORY_NAME: clin211/clin211.github.io
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@main
         with:
