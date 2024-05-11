@@ -104,7 +104,7 @@ export default withPwa(
             // 页脚配置
             footer: {
                 message:
-                    '用心去做高质量的专业前端内容网站',
+                    '用心去做高质量的专业内容网站',
                 copyright:
                     "MIT License | 版权所有 © 2023-2024 changlin and clin211 contributors",
             },

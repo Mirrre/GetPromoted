@@ -22,9 +22,9 @@ hero:
 
 features:
   - icon: 📋
-    title: 前端
-    details: 包括 HTML、CSS、JavaScript、Vue、React 等前端相关知识
-    link: /frontend/
+    title: Go学习路线
+    details: 包括 Go语言基础、Go语言进阶、实用的扩展包、设计模式、框架 等Go相关知识
+    link: /go_basic.md
     linkText: 开始学习
     rel: external
   - icon: 💬
