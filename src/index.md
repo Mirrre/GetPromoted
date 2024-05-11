@@ -12,13 +12,13 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /frontend/
+      link: /basic/
     - theme: alt
       text: 知识星球
       link: https://wx.zsxq.com/dweb2/index/group/15528828844882
     - theme: alt
       text: 面试大全
-      link: /interview-experience/1item.md
+      link: /interview-experience/index.md
 
 features:
   - icon: 📋
