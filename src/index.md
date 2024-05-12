@@ -27,22 +27,22 @@ features:
     link: /go_basic.md
     linkText: 开始学习
     rel: external
-  - icon: 💬
-    title: 服务端
-    details: 包括 Node.js、Java、Python、Go 等服务端相关知识
-    link: /backend/
-    linkText: 开始学习
-    rel: external
-  - icon: 🔧
-    title: 工具栏
-    details: 归纳一些编程相关工具与网站，提高效率
-    link: /tools/
-    linkText: 开始学习
-    rel: external
-  - icon: 🌱
-    title: 技术视野
-    details: 跟随前沿技术，深度和广度学习
-    link: /technology/
-    linkText: 开始学习
-    rel: external
+  # - icon: 💬
+  #   title: 服务端
+  #   details: 包括 Node.js、Java、Python、Go 等服务端相关知识
+  #   link: /backend/
+  #   linkText: 开始学习
+  #   rel: external
+  # - icon: 🔧
+  #   title: 工具栏
+  #   details: 归纳一些编程相关工具与网站，提高效率
+  #   link: /tools/
+  #   linkText: 开始学习
+  #   rel: external
+  # - icon: 🌱
+  #   title: 技术视野
+  #   details: 跟随前沿技术，深度和广度学习
+  #   link: /technology/
+  #   linkText: 开始学习
+  #   rel: external
 ---
