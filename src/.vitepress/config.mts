@@ -65,7 +65,14 @@ export default withPwa(
             },
             // https://vitepress.dev/reference/default-theme-config
             nav: [
-                { text: "Go语言基础篇", link: "/basic/" },
+                { text: "Go语言基础篇",
+                    items: [
+                        {
+                            text:"数据结构",
+                            link: "/basic/data-structure/",
+                        },
+                    ],
+                },
                 { text: "Go语言进阶篇", link: "/advanced/" },
                 { text: "高频篇", link: "/high-frequency/" },
                 // { text: "精选篇", link: "/featured/" },
@@ -81,7 +88,7 @@ export default withPwa(
                 // { text: "文章动态", link: "/article-updates/" },
             ],
             sidebar: {
-                "/basic/": generateRoute("basic"),
+                "/basic/data-structure/" : generateRoute("basic/data-structure"),
                 "/advanced/": generateRoute("advanced"),
                 "/high-frequency/": generateRoute("high-frequency"),
                 // "/featured/": generateRoute("featured"),

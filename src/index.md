@@ -39,10 +39,10 @@ features:
   #   link: /tools/
   #   linkText: 开始学习
   #   rel: external
-  # - icon: 🌱
-  #   title: 技术视野
-  #   details: 跟随前沿技术，深度和广度学习
-  #   link: /technology/
-  #   linkText: 开始学习
-  #   rel: external
+  - icon: 🌱
+    title: 为什么学Go
+    details: 跟随前沿技术，深度和广度学习
+    link: /technology/
+    linkText: 开始学习
+    rel: external
 ---
