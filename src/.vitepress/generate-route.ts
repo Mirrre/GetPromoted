@@ -4,9 +4,9 @@ const ignoreDir = [".vitepress", "public", ".DS_Store"];
 export function generateRoute(targetPath: string) {
     const dirsPath = `${process.cwd()}/src/`;
     const dirs = fs.readdirSync(dirsPath);
-    if (!dirs.includes(targetPath)) {
-        throw new Error(`目录 ${targetPath} 不存在`);
-    }
+    // if (!dirs.includes(targetPath)) {
+    //     throw new Error(`目录 ${targetPath} 不存在`);
+    // }
 
     const targetDir = `${dirsPath}${targetPath}/`;
     const files = fs.readdirSync(targetDir);
